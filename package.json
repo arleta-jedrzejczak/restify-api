@@ -1,0 +1,23 @@
+{
+  "name": "expapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "Arleta Jedrzejczak",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.12.5",
+    "@types/restify": "^7.2.6",
+    "axios": "^0.18.0",
+    "nodemon": "^1.18.6",
+    "pg": "^7.6.1",
+    "reflect-metadata": "^0.1.12",
+    "restify": "^7.2.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^2.8.1"
+  }
+}
